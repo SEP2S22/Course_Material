@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    char string[5] = "hola";
+    int i;
+    
+    for(i = 0; i < 4; ++i) {
+        printf("%c", string[i]);
+    }
+    printf("\n\n");
+    
+    /*
+    string = "casa";
+    */
+    
+    /*
+    string[0] = "c";
+    */
+    
+    for(i = 0; i < 4; ++i) {
+        printf("%c", string[i]);
+    }
+    printf("\n\n");
+
+    return 0;
+}
